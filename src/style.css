@@ -3,4 +3,29 @@
   padding: 0;
 }
 
-/* Seu código css aqui */
+body {
+  background: #ebebeb;
+}
+
+section {
+  width: 700px;
+  margin: 0 auto; 
+  padding: 40px;
+}
+
+.titulo {
+display: flex;
+align-items: baseline;
+}
+
+.titulo h1{
+font: 23px 'roboto', sans-serif;
+color: #666;
+margin: 0 16px 0 0;
+}
+
+.titulo a{
+font: 16px 'roboto', sans-serif;
+color: #3483fa;
+text-decoration: none;
+}
